@@ -48,7 +48,7 @@
 				<p class="form__descr">Укажите точно как в паспорте</p>	
 				
 				<div class="form__input">
-					<input type="text" placeholder="Фамилия" required>
+					<input class="surname" name="surname" type="text" placeholder="Фамилия" required>
 					<input type="text" placeholder="Имя">
 					<input type="text" placeholder="Отчество">
 					<input type="text" placeholder="Телефон">
@@ -57,7 +57,7 @@
 <!-- personal data -->
 
 				<div class="form__data data">
-					<input class="data__input" type="checkbox" id="data" required>
+					<input class="data__input" type="checkbox" id="data"  required>
 					<label class="data__label" for="data" >Согласен с <a class="data__link" href="#">правилами обработки персональных данных</a></label>
 				</div>	
 <!-- button -->
@@ -97,12 +97,15 @@
 				</div>
 
 				<div class="link__timer timer">
-					<p class="timer__text">Запросить новый код через</p>
+					<div>
+						<p class="timer__text">Запросить новый код через <span id="time">00:10</span></p>
+					</div>
+					<!-- </p>
 					<div class="timer__items">
 						<div class="timer__item">00</div>
 						<div class="timer__item">:</div>
 						<div class="timer__item">57</div>
-					</div>
+					</div> -->
 				</div>
 
 			</div>

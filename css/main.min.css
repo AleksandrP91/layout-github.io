@@ -1,14 +1,14 @@
 @charset "UTF-8";
 @font-face {
   font-family: "ProximaNova";
-  src: url("../fonts/ProximaNova-Regular.ttf") format("woff");
+  src: url("../fonts/ProximaNova-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ProximaNova";
-  src: url("../fonts/ProximaNova-Bold.ttf") format("woff");
+  src: url("../fonts/ProximaNova-Bold.ttf") format("ttf");
   font-weight: 700;
   font-style: normal;
 }
@@ -397,6 +397,10 @@ ul, ul li {
   transition: opacity 0.2s;
 }
 
+.form__click {
+  display: none;
+}
+
 .link {
   display: none;
   padding: 40px 60px 30px 60px;
@@ -480,6 +484,22 @@ ul, ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.link__click {
+  display: block;
+}
+
+.timer__none {
+  display: none;
+}
+
+.button__block {
+  display: block;
+}
+
+.link__none {
+  display: none;
 }
 
 .authorization {
@@ -611,6 +631,10 @@ ul, ul li {
   display: none;
   width: 178px;
   margin-top: 0;
+}
+
+.authorization__block {
+  display: block;
 }
 
 @media (max-width: 806px) {
